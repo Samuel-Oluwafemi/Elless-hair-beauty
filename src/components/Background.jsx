@@ -1,7 +1,7 @@
 export function Background() {
   return (
     <>
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full backdrop-blur-sm">
       {/* Hero Image */}
       <img
         src="/images/alireza-skndari-w9GupV7aB1E-unsplash.jpg"
@@ -19,7 +19,7 @@ export function Background() {
             </p>
             <a
               href="#services"
-              className="inline-block bg-gradient-to-r from-white to-pink-500/90 text-black font-semibold py-4 px-7 md:py-3 px-6 rounded-full hover:bg-pink-400 hover:text-white transition"
+              className="inline-block bg-gradient-to-r from-white to-pink-500 text-black font-semibold py-4 px-7 md:py-3 px-6 rounded-full hover:bg-pink-600 transition"
             >
               Explore Our Services
             </a>

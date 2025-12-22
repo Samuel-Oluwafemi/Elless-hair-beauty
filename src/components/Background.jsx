@@ -1,7 +1,7 @@
 export function Background() {
   return (
     <>
-      <div className="relative h-screen w-full backdrop-blur-sm">
+      <div id="home" className="relative h-screen w-full backdrop-blur-sm">
         {/* Hero Image */}
         <img
           src="/images/alireza-skndari-w9GupV7aB1E-unsplash.jpg"

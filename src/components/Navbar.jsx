@@ -24,10 +24,10 @@ export function Navbar() {
 
         {/* Navs right */}
         <ul className="hidden md:flex space-x-9 text-white text-md font-semibold gap-4">
-          <a href="#services">
+          <a href="#home">
             <li className="cursor-pointer hover:text-pink-500">Home</li>
           </a>
-          <a href="#testimonials">
+          <a href="#services">
             <li className="cursor-pointer hover:text-pink-500">Services</li>
           </a>
           <a href="">

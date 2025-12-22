@@ -6,7 +6,7 @@ export function Navbar() {
   return (
     <nav
       className="fixed top-0 bg-black/30 border-b border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.3)]
-     backdrop-blur-md md:backdrop-blur-md w-full z-50 py-6 px-5"
+     backdrop-blur-md md:backdrop-blur-md w-full z-50 py-6 px-3 md:py-5 md:px-5"
     >
       <div className="flex items-center justify-between">
         {/* Logo Left */}
@@ -14,7 +14,9 @@ export function Navbar() {
           style={{
             fontFamily: "script MT",
           }}
-          className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-pink-500 via-white to-pink-500 text-transparent bg-clip-text ${open ? 'hidden' : 'block'} md:block`}
+          className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-pink-500 via-white to-pink-500 text-transparent bg-clip-text ${
+            open ? "hidden" : "block"
+          } md:block`}
         >
           <div className="mt-1"></div>
           Elless Hair & Beauty
@@ -38,7 +40,10 @@ export function Navbar() {
             <li className="cursor-pointer hover:text-pink-400">Contact</li>
           </a>
           <a href="#about">
-            <li className="cursor-pointer inline bg-pink-400 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-pink-500 hover:text-black">
+            <li
+              className="cursor-pointer inline bg-pink-400 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-pink-500 hover:text-black
+            hover:border-white hover:shadow-2xl hover:shadow-black/90 hover:shadow-pink-400/50"
+            >
               Book Now
             </li>
           </a>

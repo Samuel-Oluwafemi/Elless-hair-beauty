@@ -38,7 +38,7 @@ export function Navbar() {
             <li className="cursor-pointer hover:text-pink-400">Contact</li>
           </a>
           <a href="#about">
-            <li className="cursor-pointer inline bg-pink-400 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-pink-500/90 hover:text-black">
+            <li className="cursor-pointer inline bg-pink-400 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-pink-500 hover:text-black">
               Book Now
             </li>
           </a>

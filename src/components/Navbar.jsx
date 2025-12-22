@@ -5,8 +5,8 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <nav
-      className="fixed top-0 bg-black/40
-     backdrop-blur-md md:backdrop-blur-sm w-full z-50 py-6 px-5"
+      className="fixed top-0 bg-black/30 border-b border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.3)]
+     backdrop-blur-md md:backdrop-blur-md w-full z-50 py-6 px-5"
     >
       <div className="flex items-center justify-between">
         {/* Logo Left */}

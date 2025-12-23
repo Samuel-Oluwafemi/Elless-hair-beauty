@@ -21,14 +21,14 @@ export function Background() {
           >
             Welcome to Elless Hair & Beauty
           </h1>
-          <p className="text-lg md:text-2xl text-pink-100 mb-8 max-w-2xl">
+          <p className="text-lg md:text-2xl text-fuchsia-100 mb-8 max-w-2xl">
             Your beauty is our duty. Experience top-notch hair and beauty
             services tailored just for you.
           </p>
           <a
             href="#services"
-            className="inline-block bg-gradient-to-r from-white to-pink-500 text-black shadow-2xl shadow-black/90 font-semibold py-4 px-7 md:py-3
-               px-6 rounded-full hover:bg-pink-600 transition hover:scale-105 transition-all transition-transform duration-300 hover:shadow-pink-400/50 hover:bg-gradient-to-r"
+            className="inline-block bg-gradient-to-r from-white to-fuchsia-700 text-black shadow-2xl shadow-black/90 font-semibold py-4 px-7 md:py-3
+               px-6 rounded-full hover:bg-fuchsia-600 transition hover:scale-105 transition-all transition-transform duration-300 hover:shadow-fuchsia-400/50 hover:bg-gradient-to-r"
           >
             Explore Our Services
           </a>

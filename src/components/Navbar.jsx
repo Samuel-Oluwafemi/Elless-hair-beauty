@@ -14,7 +14,8 @@ export function Navbar() {
           style={{
             fontFamily: "script MT",
           }}
-          className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-pink-500 via-white to-pink-500 text-transparent bg-clip-text ${
+          className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-fuchsia-700 
+            via-white to-fuchsia-700 text-transparent bg-clip-text ${
             open ? "hidden" : "block"
           } md:block`}
         >
@@ -25,24 +26,24 @@ export function Navbar() {
         {/* Navs right */}
         <ul className="hidden md:flex space-x-9 text-white text-md font-semibold gap-4">
           <a href="#home">
-            <li className="cursor-pointer hover:text-pink-500">Home</li>
+            <li className="cursor-pointer hover:text-fuchsia-500">Home</li>
           </a>
           <a href="#services">
-            <li className="cursor-pointer hover:text-pink-500">Services</li>
+            <li className="cursor-pointer hover:text-fuchsia-500">Services</li>
           </a>
           <a href="">
-            <li className="cursor-pointer hover:text-pink-500">Packages</li>
+            <li className="cursor-pointer hover:text-fuchsia-500">Packages</li>
           </a>
           <a href="#about">
-            <li className="cursor-pointer hover:text-pink-500">Reviews</li>
+            <li className="cursor-pointer hover:text-fuchsia-500">Reviews</li>
           </a>
           <a href="#about">
-            <li className="cursor-pointer hover:text-pink-500">Contact</li>
+            <li className="cursor-pointer hover:text-fuchsia-500">Contact</li>
           </a>
           <a href="#about">
             <li
-              className="cursor-pointer inline bg-pink-400 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-pink-500 hover:text-black
-            hover:border-white hover:shadow-2xl hover:shadow-black/90 hover:shadow-pink-400/50"
+              className="cursor-pointer inline bg-fuchsia-700 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-fuchsia-700 hover:text-black
+            hover:border-white hover:shadow-2xl hover:shadow-black/90 hover:shadow-fuchsia-400/50"
             >
               Book Now
             </li>
@@ -51,26 +52,26 @@ export function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden cursor-pointer text-pink-400"
+          className="md:hidden cursor-pointer text-fuchsia-400"
         >
           {!open ? <Menu /> : <X />}
         </button>
       </div>
       {open && (
         <div className="md:hidden flex flex-col text-bold text-xl text-white gap-8 items-center mt-3">
-          <a href="#services" className="cursor-pointer hover:text-pink-500">
+          <a href="#services" className="cursor-pointer hover:text-fuchsia-500">
             Services
           </a>
           <a
             href="#testimonials"
-            className="cursor-pointer hover:text-pink-500"
+            className="cursor-pointer hover:text-fuchsia-500"
           >
             Testimonials
           </a>
-          <a href="" className="cursor-pointer hover:text-pink-500">
+          <a href="" className="cursor-pointer hover:text-fuchsia-500">
             Pricing
           </a>
-          <a href="#about" className="cursor-pointer hover:text-pink-500">
+          <a href="#about" className="cursor-pointer hover:text-fuchsia-500">
             About
           </a>
         </div>

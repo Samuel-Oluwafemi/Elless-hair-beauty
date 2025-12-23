@@ -3,11 +3,11 @@ export function Services() {
     <>
       <section
         id="services"
-        className="py-20 px-4 bg-gradient-to-b from-white to-pink-100"
+        className="py-20 px-4 bg-gradient-to-b from-white to-fuchsia-100"
       >
         {/* Services header */}
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-pink-600 mb-4">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold text-fuchsia-600 mb-4">
             Our Services
           </h2>
           <p className="text-black text-lg md:px-18 max-w-3xl mx-auto mb-12">
@@ -18,7 +18,7 @@ export function Services() {
           {/* Services section grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* first column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless wigs.jpeg"
@@ -27,7 +27,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Wigs
                 </h3>
                 <p className="text-gray-700">
@@ -38,7 +38,7 @@ export function Services() {
               </div>
             </div>
             {/* Second column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless makeup.jpeg"
@@ -47,7 +47,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Makeup Services
                 </h3>
                 <p className="text-gray-700">
@@ -58,7 +58,7 @@ export function Services() {
               </div>
             </div>
             {/* Third column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless hair extensions.jpeg"
@@ -67,7 +67,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Hair Extensions
                 </h3>
                 <p className="text-gray-700">
@@ -78,7 +78,7 @@ export function Services() {
               </div>
             </div>
             {/* Fourth column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless nails.jpeg"
@@ -87,7 +87,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Nail Fixing & Polishing
                 </h3>
                 <p className="text-gray-700">
@@ -98,7 +98,7 @@ export function Services() {
               </div>
             </div>
             {/* Fifth column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless Tooth Gem.jpeg"
@@ -107,7 +107,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Tooth Gem Fixing
                 </h3>
                 <p className="text-gray-700">
@@ -118,7 +118,7 @@ export function Services() {
               </div>
             </div>
             {/* Sixth column */}
-            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-pink-400/50 transition-shadow duration-300">
+            <div className="bg-white text-left rounded-lg shadow-lg hover:shadow-fuchsia-400/50 transition-shadow duration-300">
               <div className=" w-full">
                 <img
                   src="/images/elless braiding2.jpeg"
@@ -127,7 +127,7 @@ export function Services() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-pink-500">
+                <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                   Braiding & Hair Attachment Services
                 </h3>
                 <p className="text-gray-700">

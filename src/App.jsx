@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import { Background } from "./components/Background";
 import { Services } from "./services/Services";
+import { Packages } from "./packages/packages";
 function App() {
   return (
     <html className="scroll-smooth">
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Background />
       <Services />
+      <Packages />
     </div>
     </html>
   );

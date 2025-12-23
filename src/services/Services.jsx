@@ -23,7 +23,7 @@ export function Services() {
                 <img
                   src="/images/elless wigs.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">
@@ -43,7 +43,7 @@ export function Services() {
                 <img
                   src="/images/elless makeup.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">
@@ -63,7 +63,7 @@ export function Services() {
                 <img
                   src="/images/elless hair extensions.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">
@@ -83,7 +83,7 @@ export function Services() {
                 <img
                   src="/images/elless nails.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">
@@ -103,7 +103,7 @@ export function Services() {
                 <img
                   src="/images/elless Tooth Gem.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">
@@ -123,7 +123,7 @@ export function Services() {
                 <img
                   src="/images/elless braiding2.jpeg"
                   alt=""
-                  className="w-full h-50 rounded-lg object-cover"
+                  className="w-full h-50 rounded-t-lg object-cover"
                 />
               </div>
               <div className="p-6">

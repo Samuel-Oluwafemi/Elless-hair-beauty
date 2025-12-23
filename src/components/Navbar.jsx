@@ -64,14 +64,14 @@ export function Navbar() {
           </a>
           <a
             href="#testimonials"
-            className="cursor-pointer hover:text-fuchsia-500"
+            className="cursor-pointer hover:text-fuchsia-400"
           >
             Testimonials
           </a>
-          <a href="" className="cursor-pointer hover:text-fuchsia-500">
+          <a href="" className="cursor-pointer hover:text-fuchsia-400">
             Pricing
           </a>
-          <a href="#about" className="cursor-pointer hover:text-fuchsia-500">
+          <a href="#about" className="cursor-pointer hover:text-fuchsia-400">
             About
           </a>
         </div>

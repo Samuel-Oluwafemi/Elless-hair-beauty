@@ -11,7 +11,7 @@ export function Background() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
         {/* Centered Text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center h-full text-center px-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center h-full text-center px-4 mt-4 md:mt-0">
           <h1
             style={{
               letterSpacing: "3px",

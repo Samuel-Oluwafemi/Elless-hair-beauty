@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronDownIcon } from "lucide-react";
 export function Services() {
   const services = [
     {
@@ -53,12 +54,13 @@ export function Services() {
   ];
 
   const [expandedService, setExpandedService] = useState(false);
+  // if expandedService is true show all services else show first 3 services
   const visibleServices = expandedService ? services : services.slice(0, 3);
   return (
     <>
       <section
         id="services"
-        className="py-20 px-4 bg-gradient-to-b from-white to-fuchsia-100"
+        className="py-15 px-4 bg-gradient-to-b from-white to-fuchsia-100"
       >
         {/* Services header */}
         <div className="max-w-7xl mx-auto text-center">
@@ -72,12 +74,14 @@ export function Services() {
           </p>
           {/* Services section grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* loop through each service */}
             {visibleServices.map((service) => (
               <div
                 key={service.id}
                 className="bg-white text-left rounded-lg hover:scale-105 transition-all transition-transform duration-300 shadow-lg 
                    hover:shadow-fuchsia-400/50 transition-shadow duration-300"
               >
+                {/* service img */}
                 <div className="w-full">
                   <img
                     src={service.image}
@@ -85,21 +89,35 @@ export function Services() {
                     className="w-full h-50 relative group-hover:scale-105 transition-transform duration-300 rounded-t-lg object-cover"
                   />
                 </div>
+                {/* service title */}
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-4 text-fuchsia-500">
                     {service.title}
                   </h3>
+                  {/* servie desc */}
                   <p className="text-gray-700">{service.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
-
-        <button type="button" onClick={() =>setExpandedService(prev => !prev)}
-            className="bg-gradient-to-r from-white to-fuchsia-600 text-black rounded-full py-3 px-6 mx-auto text-center
-            flex justify-center mt-10 font-semibold hover:bg-fuchsia-600 hover:text-white cursor-pointer">
-            {expandedService ? 'Show Less' : 'Show More'}
+        {/* Show more / Show less btn */}
+        <button
+          type="button"
+          onClick={() => setExpandedService((prev) => !prev)}
+          className="bg-gradient-to-r from-white to-fuchsia-600 text-black rounded-full py-3 px-6 mx-auto text-center
+            flex justify-center mt-10 font-semibold hover:bg-fuchsia-600 hover:scale-105 transition-all
+             transition-transform duration-300 hover:shadow-fuchsia-400/50 hover:bg-gradient-to-r cursor-pointer"
+        >
+          {/* Chevrondownicon to match the btn */}
+          <div className="flex items-center gap-2 cursor-pointer">
+            {expandedService ? "Show Less" : "Show More"}
+            <ChevronDownIcon
+              className={`w-5 text-black transition-transform duration-300 ${
+                expandedService ? "rotate-180" : ""
+              }`}
+            />
+          </div>
         </button>
       </section>
     </>

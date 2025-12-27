@@ -14,6 +14,7 @@ export function Navbar() {
           style={{
             fontFamily: "script MT",
           }}
+          // set the classname to hide when open is true and show when open is false
           className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-fuchsia-700 
             via-white to-fuchsia-700 text-transparent bg-clip-text ${
             open ? "hidden" : "block"
@@ -64,14 +65,14 @@ export function Navbar() {
           </a>
           <a
             href="#testimonials"
-            className="cursor-pointer hover:text-fuchsia-400"
+            className="cursor-pointer hover:text-fuchsia-500"
           >
             Testimonials
           </a>
-          <a href="" className="cursor-pointer hover:text-fuchsia-400">
+          <a href="" className="cursor-pointer hover:text-fuchsia-500">
             Pricing
           </a>
-          <a href="#about" className="cursor-pointer hover:text-fuchsia-400">
+          <a href="#about" className="cursor-pointer hover:text-fuchsia-500">
             About
           </a>
         </div>

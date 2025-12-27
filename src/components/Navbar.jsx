@@ -16,9 +16,7 @@ export function Navbar() {
           }}
           // set the classname to hide when open is true and show when open is false
           className={`flex text-3xl md:text-4xl cursor-pointer font-playfair font-bold bg-gradient-to-r from-fuchsia-700 
-            via-white to-fuchsia-700 text-transparent bg-clip-text ${
-            open ? "hidden" : "block"
-          } md:block`}
+            via-white to-fuchsia-700 text-transparent bg-clip-text`}
         >
           <div className="mt-1"></div>
           Elless Hair & Beauty
@@ -32,7 +30,7 @@ export function Navbar() {
           <a href="#services">
             <li className="cursor-pointer hover:text-fuchsia-500">Services</li>
           </a>
-          <a href="">
+          <a href="#packages">
             <li className="cursor-pointer hover:text-fuchsia-500">Packages</li>
           </a>
           <a href="#about">
@@ -59,17 +57,17 @@ export function Navbar() {
         </button>
       </div>
       {open && (
-        <div className="md:hidden flex flex-col text-bold text-xl text-white gap-8 items-center mt-3">
+        <div className="md:hidden flex flex-col text-bold text-xl text-white gap-8 items-center mt-8 md:mt-3">
           <a href="#services" className="cursor-pointer hover:text-fuchsia-500">
             Services
           </a>
           <a
-            href="#testimonials"
+            href="#packages"
             className="cursor-pointer hover:text-fuchsia-500"
           >
-            Testimonials
+            Packages
           </a>
-          <a href="" className="cursor-pointer hover:text-fuchsia-500">
+          <a href="#packages" className="cursor-pointer hover:text-fuchsia-500">
             Pricing
           </a>
           <a href="#about" className="cursor-pointer hover:text-fuchsia-500">

@@ -33,13 +33,13 @@ export function Navbar() {
           <a href="#packages">
             <li className="cursor-pointer hover:text-fuchsia-500">Packages</li>
           </a>
-          <a href="#about">
+          <a href="#reviews">
             <li className="cursor-pointer hover:text-fuchsia-500">Reviews</li>
           </a>
-          <a href="#about">
+          <a href="#contact">
             <li className="cursor-pointer hover:text-fuchsia-500">Contact</li>
           </a>
-          <a href="#about">
+          <a href="#book">
             <li
               className="cursor-pointer inline bg-fuchsia-700 rounded-full py-3 px-6 hover:bg-gradient-to-r from-white to-fuchsia-700 hover:text-black
             hover:border-white hover:shadow-2xl hover:shadow-black/90 hover:shadow-fuchsia-400/50"
@@ -68,11 +68,15 @@ export function Navbar() {
             Packages
           </a>
           <a href="#packages" className="cursor-pointer hover:text-fuchsia-500">
-            Pricing
+            Reviews
           </a>
           <a href="#about" className="cursor-pointer hover:text-fuchsia-500">
-            About
+            Contact
           </a>
+          <a href="#book" className="cursor-pointer inline bg-fuchsia-700 rounded-full py-3 px-5 hover:bg-gradient-to-r from-white to-fuchsia-700 hover:text-black
+            hover:border-white hover:shadow-2xl hover:shadow-black/90 hover:shadow-fuchsia-400/50">
+              Book Now
+            </a>
         </div>
       )}
     </nav>

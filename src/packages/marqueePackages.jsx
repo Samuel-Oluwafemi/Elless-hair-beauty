@@ -22,14 +22,15 @@ export function MarqueePackages() {
       title: "Combo package",
       image: "/images/elless polishing.jpeg",
       description: "Glow Combo (Nail polishing + Manicure)",
-      badge: "Popular",
+      badge: "Most Popular",
       price: "#10,000",
     },
     {
       id: 4,
-      title: "Tooth Gem Combo package",
+      title: "Tooth Gem package",
       image: "/images/elless gems.jpeg",
-      description: "Braces Tooth Gem Fixing",
+      description: "Braces Tooth Gem Fixing (2pcs)",
+      badge: "Save #10,000",
       price: "#20,000",
     },
     {
@@ -37,6 +38,7 @@ export function MarqueePackages() {
       title: "Hair Extension package",
       image: "/images/elless hair extensions.jpeg",
       description: "Clip-in Hair Extensions",
+      badge: "Limited Promo",
       price: "#30,000",
     },
   ];
@@ -45,7 +47,7 @@ export function MarqueePackages() {
   const direction = "left"; // can also change this to "right" if needed
       return (
           <>
-      <section className="py-4 h-full overflow-hidden">
+      <section className="py-8 h-full overflow-hidden">
         <Marquee
           speed={marqueeSpeed}
           gradient={false}
@@ -54,14 +56,15 @@ export function MarqueePackages() {
           shadowStyle={shadowStyle}
           direction={direction}
         >
-          <div className="flex space-x-12 px-4">
+          <div className="flex gap-10 px-4">
             {/* loop through each service */}
             {scroll.map((pkg) => (
               // services container
               <div
                 key={pkg.id}
-                className="relative bg-white p-5 py-10 text-left rounded-lg overflow-hidden 
-                transition-all transition-transform duration-300 shadow-lg transition-shadow duration-300"
+                className="relative p-5 py-10 rounded-xl overflow-hidden 
+                transition-all transition-transform hover:scale-105 hover:rounded-xl 
+                duration-300 transition-shadow duration-300"
               >
                 {/* service img */}
                 <div className="absolute overflow-hidden inset-0">
@@ -71,12 +74,14 @@ export function MarqueePackages() {
                     className="w-full h-full object-cover"
                     />
                   {/* service overlay bg-color */}
-                  <div className="absolute inset-0 bg-black/30"></div>
+                  <div className="absolute inset-0 bg-black/40"></div>
                 </div>
                 {/* badge */}
                 <div className="relative text-center z-10">
                   {pkg.badge && (
-                    <div className="absolute top-3 right-1 bg-fuchsia-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-md">
+                    <div style={{
+                        fontSize: '10px'
+                    }} className="absolute top-3 right-1 bg-fuchsia-700 text-white font-semibold px-2 py-1 rounded-full shadow-lg">
                       {pkg.badge}
                     </div>
                   )}
@@ -107,7 +112,7 @@ export function MarqueePackages() {
                   {/* service cta button */}
                   <button
                     className="mt-10 bg-gradient-to-r from-white to-fuchsia-600 text-black 
-                    text-sm rounded-full py-3 border border-gray-100 px-20 mx-auto cursor-pointer text-center
+                    text-sm rounded-full py-3 border border-gray-100 px-18 mx-auto cursor-pointer text-center
                     hover:bg"
                   >
                     Book this package

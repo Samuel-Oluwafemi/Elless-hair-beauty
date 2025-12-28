@@ -46,7 +46,7 @@ export function Services() {
     },
     {
       id: 7,
-      title: "Luxury Pedicure",
+      title: "Luxury Manicure & Pedicure",
       image: "/images/elless pedicure.jpeg",
       description:
         "Experience ultimate relaxation with our luxury pedicure services. Our expert technicians will pamper your feet, leaving them soft, smooth, and beautifully polished.",
